@@ -1,0 +1,24 @@
+{
+  "name": "restaurant-chatbot",
+  "version": "1.0.0",
+  "description": "Chatbot per ristorante migrato da Voiceflow",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "keywords": ["chatbot", "restaurant", "voiceflow", "migration"],
+  "author": "Your Name",
+  "license": "MIT"
+}
